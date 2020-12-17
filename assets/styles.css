@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    font-family: 'roboto', sans-serif;
+}
+.site-header {
+    height: 90px;
+    background-color: transparent;
+    background-image: linear-gradient(130deg, #0700dd 0%, #00f2ff 100%);
+    width: 100%;
+}
+
+.header-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    
+}
+
+.site-logo {
+    flex: 1;
+}
+
+.site-logo img {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    margin-right: 50px;
+    color: white;
+    font-size: 17px;
+}
+
+.hero {
+    margin: 0;
+    height: 410px;
+    background-image: linear-gradient(130deg, #0700dd 0%, #00f2ff 100%);
+    width: 100%;
+    
+} 
+    
+
+.hero-image-overlay {
+    opacity: 0.15;
+    margin: 0;
+    height: 410px;
+    width: inherit;
+    background-image: url('./imagess/hero-overlay.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image-overlay .hero-text {
+    color: rgb(255, 255, 255);
+    width: 550px;
+    margin: 0%;
+    padding: 50px;
+    height: 55px;
+    margin: auto; 
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+}
